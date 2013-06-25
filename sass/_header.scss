@@ -1,0 +1,17 @@
+/* Header Partial  - contains logo and other pieces for header of site */
+
+header {
+  position: relative;
+  height: 500px;
+  text-align:center;
+  margin: 0;
+  
+  .logo {
+    background: 
+      url('') top center no-repeat; // Placeholder
+    height: 300px;
+    width: 300px;
+    margin: 75px auto;
+    position: relative;
+  }
+}

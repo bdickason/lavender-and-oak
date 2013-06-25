@@ -97,8 +97,8 @@ To read more about Compass/SASS, check out the website: http://compass-style.org
 
 
 Todo
-* ~Serve single page~
-* ~Configure SASS/Compass~
+* ~~Serve single page~~
+* ~~Configure SASS/Compass~~
 * Create main template
 * Create sub-templates for each piece of content (if needed)
 * Photography for products

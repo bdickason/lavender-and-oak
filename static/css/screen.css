@@ -1,7 +1,4 @@
-/* Welcome to Compass.
- * In this file you should write your main styles. (or centralize your imports)
- * Import this file using the following HTML or equivalent:
- * <link href="/stylesheets/screen.css" media="screen, projection" rel="stylesheet" type="text/css" /> */
+/* Base CSS file  - compiles all imports below into screen.css */
 /* line 17, ../../../../../../Library/Ruby/Gems/1.8/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
 html, body, div, span, applet, object, iframe,
 h1, h2, h3, h4, h5, h6, p, blockquote, pre,
@@ -64,5 +61,55 @@ a img {
 
 /* line 116, ../../../../../../Library/Ruby/Gems/1.8/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
 article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, section, summary {
+  display: block;
+}
+
+/* Custom Partials */
+/* Variables Partial  - contains colors, fonts, etc. */
+/* Text Colors */
+/* Link Colors */
+/* Background Colors */
+/* Base styles */
+/* line 4, ../../sass/_base.scss */
+body {
+  font-family: 'Georgia, serif';
+  font-weight: normal;
+  font-style: normal;
+  font-variant: normal;
+  font-size: 1.3125em;
+  line-height: 1.52381em;
+  color: white;
+  background: #5f4f5a;
+}
+
+/* line 16, ../../sass/_base.scss */
+.contrast {
+  text-shadow: 1px 1px 2px black;
+  color: white;
+}
+
+/* Header Partial  - contains logo and other pieces for header of site */
+/* line 3, ../../sass/_header.scss */
+header {
+  position: relative;
+  height: 500px;
+  text-align: center;
+  margin: 0;
+}
+/* line 9, ../../sass/_header.scss */
+header .logo {
+  background: url("") top center no-repeat;
+  height: 300px;
+  width: 300px;
+  margin: 75px auto;
+  position: relative;
+}
+
+/* Content Partial - contents of each product box */
+/* line 4, ../../sass/_content.scss */
+content.cleanse {
+  color: black;
+  background: white;
+  position: relative;
   display: block;
 }
