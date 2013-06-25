@@ -1,0 +1,31 @@
+{
+    "name": "lavendar-and-oak"
+  , "version": "0.0.1"
+  , "description": "Single serving site for hair product line Lavendar & Oak"
+  , "homepage": "http://www.lavendarandoak.com/"
+  , "keywords": [""]
+  , "author": "Brad Dickason <dickason@gmail.com>"
+  , "contributors": [
+        { "name": "Brad Dickason", "email": "dickason@gmail.com" },
+        { "name": "Anthony Cangelosi", "email": "loosetony@gmail.com"}
+    ]
+  , "repository":{
+        "type": "git"
+      , "url": "https://github.com/bdickason/lavendar-and-oak"
+    }
+  , "dependencies": {
+    "express": "3.0.1",
+    "coffee-script": "1.4.0",
+    "jade": "0.27.7"
+    }
+  , "devDependencies": {
+        "mocha": "1.6.0",
+    		"should": "1.2.1",
+    		"zombie": "1.4.1"
+    }
+  , "main": "app"
+  , "engines": { "node": ">= 0.9.0" }
+  , "scripts": {
+        "test": "make test"
+    }
+}
