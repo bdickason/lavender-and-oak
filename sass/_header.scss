@@ -8,10 +8,10 @@ header {
   
   .logo {
     background: 
-      url('') top center no-repeat; // Placeholder
-    height: 300px;
-    width: 300px;
-    margin: 75px auto;
+      url('/images/logo.png') top center no-repeat; // TODO: Add CDN Link here
+    width: 500px;
+    height: 387px;
+    margin: 2% auto;
     position: relative;
   }
 }

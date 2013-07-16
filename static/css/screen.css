@@ -88,6 +88,23 @@ body {
   color: white;
 }
 
+/* line 22, ../../sass/_base.scss */
+h1 {
+  font-size: 2.5em;
+}
+
+/* line 26, ../../sass/_base.scss */
+h2 {
+  font-size: 2.3em;
+  padding: 0 0 5% 0;
+  text-align: center;
+}
+
+/* line 32, ../../sass/_base.scss */
+p {
+  padding: 0 0 5% 0;
+}
+
 /* Header Partial  - contains logo and other pieces for header of site */
 /* line 3, ../../sass/_header.scss */
 header {
@@ -98,10 +115,10 @@ header {
 }
 /* line 9, ../../sass/_header.scss */
 header .logo {
-  background: url("") top center no-repeat;
-  height: 300px;
-  width: 300px;
-  margin: 75px auto;
+  background: url("/images/logo.png") top center no-repeat;
+  width: 500px;
+  height: 387px;
+  margin: 2% auto;
   position: relative;
 }
 
@@ -110,19 +127,65 @@ header .logo {
 content {
   position: relative;
   display: block;
+  height: 500px;
 }
-/* line 7, ../../sass/_content.scss */
+/* line 9, ../../sass/_content.scss */
+content img {
+  width: 500px;
+  height: 400px;
+  padding-top: 3%;
+}
+/* line 17, ../../sass/_content.scss */
+content .metadata {
+  width: 30%;
+  padding-top: 11%;
+}
+/* line 22, ../../sass/_content.scss */
+content button {
+  margin: 0 40% 0 40%;
+}
+/* line 28, ../../sass/_content.scss */
 content#rinse {
   color: black;
   background: #cccccc;
 }
-/* line 12, ../../sass/_content.scss */
+/* line 31, ../../sass/_content.scss */
+content#rinse img {
+  float: left;
+  padding-left: 10%;
+}
+/* line 35, ../../sass/_content.scss */
+content#rinse .metadata {
+  float: right;
+  padding-right: 11%;
+}
+/* line 41, ../../sass/_content.scss */
 content#cleanse {
   color: black;
   background: white;
 }
-/* line 17, ../../sass/_content.scss */
+/* line 44, ../../sass/_content.scss */
+content#cleanse img {
+  float: right;
+  padding-right: 8%;
+}
+/* line 48, ../../sass/_content.scss */
+content#cleanse .metadata {
+  float: left;
+  padding-left: 14%;
+}
+/* line 54, ../../sass/_content.scss */
 content#leavein {
   color: black;
   background: #aaaaaa;
+}
+/* line 57, ../../sass/_content.scss */
+content#leavein img {
+  float: left;
+  padding-left: 10%;
+}
+/* line 61, ../../sass/_content.scss */
+content#leavein .metadata {
+  float: right;
+  padding-right: 11%;
 }
