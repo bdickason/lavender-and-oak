@@ -106,10 +106,23 @@ header .logo {
 }
 
 /* Content Partial - contents of each product box */
-/* line 4, ../../sass/_content.scss */
-content.cleanse {
-  color: black;
-  background: white;
+/* line 3, ../../sass/_content.scss */
+content {
   position: relative;
   display: block;
+}
+/* line 7, ../../sass/_content.scss */
+content#rinse {
+  color: black;
+  background: #cccccc;
+}
+/* line 12, ../../sass/_content.scss */
+content#cleanse {
+  color: black;
+  background: white;
+}
+/* line 17, ../../sass/_content.scss */
+content#leavein {
+  color: black;
+  background: #aaaaaa;
 }
