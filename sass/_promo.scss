@@ -7,7 +7,7 @@ content.promo {
   color: $text-dark;
   background: $bg-promo;
 
-  ul {
+  & ul {
     padding: 5% 35% 2% 39%;
     display: inline-block;
     li {
@@ -21,8 +21,9 @@ content.promo {
     }
   }
 
-  button {
-    margin: 0% 45% 0 45%;
+  & button {
+    margin: 0 auto;
+    width: 10%;
   }
   
 }
