@@ -99,8 +99,9 @@ To read more about Compass/SASS, check out the website: http://compass-style.org
 Todo
 * ~~Serve single page~~
 * ~~Configure SASS/Compass~~
-* Create main template
-* Create sub-templates for each piece of content (if needed)
+* ~~Create main template~~
+* ~~Create sub-templates for each piece of content (if needed)~~
+* Adjust styles to accomodate mobile/tablet breakpoints
 * Photography for products
 * Define color palette
 * Cache multiple requests
