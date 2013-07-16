@@ -124,68 +124,101 @@ header .logo {
 
 /* Content Partial - contents of each product box */
 /* line 3, ../../sass/_content.scss */
-content {
+content.product {
   position: relative;
   display: block;
   height: 500px;
 }
 /* line 9, ../../sass/_content.scss */
-content img {
+content.product img {
   width: 500px;
   height: 400px;
   padding-top: 3%;
 }
 /* line 17, ../../sass/_content.scss */
-content .metadata {
+content.product .metadata {
   width: 30%;
   padding-top: 11%;
 }
 /* line 22, ../../sass/_content.scss */
-content button {
+content.product button {
   margin: 0 40% 0 40%;
 }
 /* line 28, ../../sass/_content.scss */
-content#rinse {
+content.product#rinse {
   color: black;
   background: #cccccc;
 }
 /* line 31, ../../sass/_content.scss */
-content#rinse img {
+content.product#rinse img {
   float: left;
   padding-left: 10%;
 }
 /* line 35, ../../sass/_content.scss */
-content#rinse .metadata {
+content.product#rinse .metadata {
   float: right;
   padding-right: 11%;
 }
 /* line 41, ../../sass/_content.scss */
-content#cleanse {
+content.product#cleanse {
   color: black;
   background: white;
 }
 /* line 44, ../../sass/_content.scss */
-content#cleanse img {
+content.product#cleanse img {
   float: right;
   padding-right: 8%;
 }
 /* line 48, ../../sass/_content.scss */
-content#cleanse .metadata {
+content.product#cleanse .metadata {
   float: left;
   padding-left: 14%;
 }
 /* line 54, ../../sass/_content.scss */
-content#leavein {
+content.product#leavein {
   color: black;
   background: #aaaaaa;
 }
 /* line 57, ../../sass/_content.scss */
-content#leavein img {
+content.product#leavein img {
   float: left;
   padding-left: 10%;
 }
 /* line 61, ../../sass/_content.scss */
-content#leavein .metadata {
+content.product#leavein .metadata {
   float: right;
   padding-right: 11%;
+}
+
+/* Promo Partial - contents of each promo box */
+/* line 2, ../../sass/_promo.scss */
+content.promo {
+  position: relative;
+  display: block;
+  height: 400px;
+  color: black;
+  background: white;
+}
+/* line 10, ../../sass/_promo.scss */
+content.promo ul {
+  padding: 5% 35% 0 38%;
+  display: inline-block;
+}
+/* line 13, ../../sass/_promo.scss */
+content.promo ul li {
+  display: inline-block;
+  float: left;
+}
+/* line 17, ../../sass/_promo.scss */
+content.promo ul li img {
+  width: 100px;
+  height: 80px;
+}
+/* line 24, ../../sass/_promo.scss */
+content.promo h3 {
+  margin: 5% 40% 0 43%;
+}
+/* line 28, ../../sass/_promo.scss */
+content.promo button {
+  margin: 5% 45% 0 45%;
 }
