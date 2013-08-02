@@ -226,3 +226,7 @@ content.promo button {
   margin: 0 auto;
   width: 10%;
 }
+/* line 29, ../../sass/_promo.scss */
+content.promo .center {
+  text-align: center;
+}
