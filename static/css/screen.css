@@ -91,23 +91,31 @@ body {
 /* line 22, ../../sass/_base.scss */
 h1 {
   font-size: 2.5em;
+  padding-top: 1%;
+  line-height: 1em;
+}
+@media screen and (max-width: 600px) {
+  /* line 22, ../../sass/_base.scss */
+  h1 {
+    font-size: 1.7em;
+  }
 }
 
-/* line 26, ../../sass/_base.scss */
+/* line 32, ../../sass/_base.scss */
 h2 {
   font-size: 2.3em;
   padding: 0 0 5% 0;
   text-align: center;
 }
 
-/* line 32, ../../sass/_base.scss */
+/* line 38, ../../sass/_base.scss */
 h3 {
   font-size: 2.1em;
   padding: 0 0 3% 0;
   text-align: center;
 }
 
-/* line 38, ../../sass/_base.scss */
+/* line 44, ../../sass/_base.scss */
 p {
   padding: 0 0 5% 0;
 }
@@ -116,17 +124,23 @@ p {
 /* line 3, ../../sass/_header.scss */
 header {
   position: relative;
-  height: 500px;
   text-align: center;
   margin: 0;
+  padding-bottom: 4%;
 }
 /* line 9, ../../sass/_header.scss */
 header .logo {
-  background: url("/images/logo.png") top center no-repeat;
-  width: 500px;
-  height: 387px;
-  margin: 2% auto;
-  position: relative;
+  padding: 13%;
+  background: url("/images/logo.png");
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+@media screen and (max-width: 600px) {
+  /* line 9, ../../sass/_header.scss */
+  header .logo {
+    padding: 30%;
+  }
 }
 
 /* Content Partial - contents of each product box */
