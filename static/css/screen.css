@@ -182,7 +182,7 @@ content.product .metadata {
   /* line 28, ../../sass/_content.scss */
   content.product .metadata {
     width: 80%;
-    float: left;
+    float: right;
     padding-right: 5%;
     margin-bottom: 5%;
   }
