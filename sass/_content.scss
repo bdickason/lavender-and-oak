@@ -6,17 +6,37 @@ content.product {
   display:block;
   height: 500px;
 
+  @media screen and (max-width: 600px) {
+    height: 600px;
+  }
+
   & img {
     // Generic img styles. Positioning will be overridden below.
-    width: 500px;
-    height: 400px;
-    padding-top: 3%
+    width: 41%;
+    padding-top: 3%;
+    max-width: 500px;
+    float:left;
+    padding-left: 10%;
+
+    @media screen and (max-width: 600px) {
+      width: 350px;
+      padding-left: 18%;
+    }
     
   }
 
   .metadata {
     width: 30%;
     padding-top: 11%;
+    float:right;
+    padding-right: 11%;
+
+    @media screen and (max-width: 600px) {
+      width: 80%;
+      float: left;
+      padding-right: 5%;
+      margin-bottom: 5%;
+    }
   }
 
   button {
@@ -28,39 +48,29 @@ content.product {
   &#rinse {
     color: $text-dark;
     background: $bg-rinse;
-    img {
-      float:left;
-      padding-left: 10%
-    }
-    .metadata {
-      float:right;
-      padding-right: 11%;
-    }
   }
   
   &#cleanse {
     color: $text-dark;
     background: $bg-cleanse;
-    img {
-      float:right;
-      padding-right: 8%
-    }
-    .metadata {
-      float:left;
-      padding-left: 14%
-    }
+
   }
   
   &#leavein {
     color: $text-dark;
     background: $bg-leavein;
-    img {
-      float:left;
-      padding-left:10%;
-    }
-    .metadata {
-      float:right;
-      padding-right: 11%;
-    }
   }
 }
+
+// Right Aligned variation
+  .product.right {
+    img {
+      float:right;
+      padding-right: 8%;
+    }
+    .metadata {
+      float:left;
+      padding-left: 14%;
+      padding-right: 0;
+    }
+  }

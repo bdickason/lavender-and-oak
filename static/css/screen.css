@@ -150,65 +150,73 @@ content.product {
   display: block;
   height: 500px;
 }
-/* line 9, ../../sass/_content.scss */
-content.product img {
-  width: 500px;
-  height: 400px;
-  padding-top: 3%;
+@media screen and (max-width: 600px) {
+  /* line 3, ../../sass/_content.scss */
+  content.product {
+    height: 600px;
+  }
 }
-/* line 17, ../../sass/_content.scss */
+/* line 13, ../../sass/_content.scss */
+content.product img {
+  width: 41%;
+  padding-top: 3%;
+  max-width: 500px;
+  float: left;
+  padding-left: 10%;
+}
+@media screen and (max-width: 600px) {
+  /* line 13, ../../sass/_content.scss */
+  content.product img {
+    width: 350px;
+    padding-left: 18%;
+  }
+}
+/* line 28, ../../sass/_content.scss */
 content.product .metadata {
   width: 30%;
   padding-top: 11%;
+  float: right;
+  padding-right: 11%;
 }
-/* line 22, ../../sass/_content.scss */
+@media screen and (max-width: 600px) {
+  /* line 28, ../../sass/_content.scss */
+  content.product .metadata {
+    width: 80%;
+    float: left;
+    padding-right: 5%;
+    margin-bottom: 5%;
+  }
+}
+/* line 42, ../../sass/_content.scss */
 content.product button {
   margin: 0 40% 0 40%;
 }
-/* line 28, ../../sass/_content.scss */
+/* line 48, ../../sass/_content.scss */
 content.product#rinse {
   color: black;
   background: #cccccc;
 }
-/* line 31, ../../sass/_content.scss */
-content.product#rinse img {
-  float: left;
-  padding-left: 10%;
-}
-/* line 35, ../../sass/_content.scss */
-content.product#rinse .metadata {
-  float: right;
-  padding-right: 11%;
-}
-/* line 41, ../../sass/_content.scss */
+/* line 53, ../../sass/_content.scss */
 content.product#cleanse {
   color: black;
   background: white;
 }
-/* line 44, ../../sass/_content.scss */
-content.product#cleanse img {
-  float: right;
-  padding-right: 8%;
-}
-/* line 48, ../../sass/_content.scss */
-content.product#cleanse .metadata {
-  float: left;
-  padding-left: 14%;
-}
-/* line 54, ../../sass/_content.scss */
+/* line 59, ../../sass/_content.scss */
 content.product#leavein {
   color: black;
   background: #aaaaaa;
 }
-/* line 57, ../../sass/_content.scss */
-content.product#leavein img {
-  float: left;
-  padding-left: 10%;
-}
-/* line 61, ../../sass/_content.scss */
-content.product#leavein .metadata {
+
+/* line 67, ../../sass/_content.scss */
+.product.right img {
   float: right;
-  padding-right: 11%;
+  padding-right: 8%;
+}
+/* line 71, ../../sass/_content.scss */
+.product.right .metadata {
+  float: left;
+  padding-left: 14%;
+  padding-right: 0;
 }
 
 /* Promo Partial - contents of each promo box */
