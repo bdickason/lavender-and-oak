@@ -19,33 +19,37 @@ See below for more info.
 Step 1: Install node
 
 * Download Node: http://nodejs.org/dist/v0.10.12/node-v0.10.12.pkg
-* Run the following command: `./configure; make; sudo make install`
-* Test that it works: `node -v`
+* Open and install the resulting file: node-v0.10.12.pkg
+* Test that it works from the command line: `node -v`
 
-Step 2: Grab the repo
+Step 2: Install git
+
+* Follow the instructions on this page: https://help.github.com/articles/set-up-git
+
+Step 3: Grab the repo
 
 * Run the following command: `git clone https://github.com/bdickason/lavender-and-oak`
 * Run the following command: `cd lavender-and-oak`
 
-Step 3: Install packages/dependencies
+Step 4: Install packages/dependencies
 
 * Run the following command: `npm install`
 
-Step 4: Start the server
+Step 5: Start the server
 
 * Run the following command: `node app.js`
 
-Step 5: Visit the site
+Step 6: Visit the site
 
 * Load it up in your web browser: http://localhost:3000
 
 
-Step 6: Install coffee-script (optional)
+Step 7: Install coffee-script (optional)
 
 * Run the following command: `sudo npm install -g coffee-script`
 * Test that it works: `coffee -v`
 
-Step 7: Install Compass/SASS (optional)
+Step 8: Install Compass/SASS (optional)
 
 * Update Rubygems: `sudo gem update --system`
 * Install Compass: `sudo gem install compass`
