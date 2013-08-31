@@ -8,7 +8,11 @@ content.product {
   clear: both;
 
   @media screen and (max-width: 600px) {
-    height: 600px;
+    height: 610px;
+  }
+
+   @media screen and (max-width: 400px) {
+    height: 610px;
   }
 
   & img {
@@ -22,6 +26,11 @@ content.product {
     @media screen and (max-width: 600px) {
       width: 350px;
       padding-left: 18%;
+    }
+    @media screen and (max-width: 400px) {
+      width: 100%;
+      padding-right: 0%;
+      padding-left: 0%
     }
     
   }
@@ -37,6 +46,11 @@ content.product {
       float: right;
       padding-right: 5%;
       margin-bottom: 5%;
+    }
+    @media screen and (max-width: 400px) {
+      width: 90%;
+      padding-right: 5%;
+      padding-left: 5%
     }
   }
 
@@ -69,10 +83,30 @@ content.product {
       float:right;
       padding-right: 9%;
       padding-left: 6%;
+
+      @media screen and (max-width: 400px) {
+      width: 90%;
+      padding-right: 5%;
+      padding-left: 5%;
+      }
     }
     .metadata {
       float:left;
       padding-left: 14%;
       padding-right: 0;
+
+      @media screen and (max-width: 600px) {
+      width: 100%;
+      float: right;
+      padding-right: 5%;
+      margin-bottom: 5%;
+      }
+
+      @media screen and (max-width: 400px) {
+      width: 90%;
+      padding-right: 5%;
+      padding-left: 5%;
+      }
     }
+
   }
