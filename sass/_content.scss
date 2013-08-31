@@ -5,6 +5,7 @@ content.product {
   position: relative;
   display:block;
   height: 500px;
+  clear: both;
 
   @media screen and (max-width: 600px) {
     height: 600px;
@@ -15,7 +16,7 @@ content.product {
     width: 41%;
     padding-top: 3%;
     max-width: 500px;
-    float:left;
+    float: left;
     padding-left: 10%;
 
     @media screen and (max-width: 600px) {
@@ -28,11 +29,11 @@ content.product {
   .metadata {
     width: 30%;
     padding-top: 11%;
-    float:right;
+    float: right;
     padding-right: 11%;
 
     @media screen and (max-width: 600px) {
-      width: 80%;
+      width: 100%;
       float: right;
       padding-right: 5%;
       margin-bottom: 5%;
@@ -66,7 +67,8 @@ content.product {
   .product.right {
     img {
       float:right;
-      padding-right: 8%;
+      padding-right: 9%;
+      padding-left: 6%;
     }
     .metadata {
       float:left;

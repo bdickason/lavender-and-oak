@@ -151,6 +151,7 @@ content.product {
   position: relative;
   display: block;
   height: 500px;
+  clear: both;
 }
 @media screen and (max-width: 600px) {
   /* line 3, ../../sass/_content.scss */
@@ -158,7 +159,7 @@ content.product {
     height: 600px;
   }
 }
-/* line 13, ../../sass/_content.scss */
+/* line 14, ../../sass/_content.scss */
 content.product img {
   width: 41%;
   padding-top: 3%;
@@ -167,13 +168,13 @@ content.product img {
   padding-left: 10%;
 }
 @media screen and (max-width: 600px) {
-  /* line 13, ../../sass/_content.scss */
+  /* line 14, ../../sass/_content.scss */
   content.product img {
     width: 350px;
     padding-left: 18%;
   }
 }
-/* line 28, ../../sass/_content.scss */
+/* line 29, ../../sass/_content.scss */
 content.product .metadata {
   width: 30%;
   padding-top: 11%;
@@ -181,40 +182,41 @@ content.product .metadata {
   padding-right: 11%;
 }
 @media screen and (max-width: 600px) {
-  /* line 28, ../../sass/_content.scss */
+  /* line 29, ../../sass/_content.scss */
   content.product .metadata {
-    width: 80%;
+    width: 100%;
     float: right;
     padding-right: 5%;
     margin-bottom: 5%;
   }
 }
-/* line 42, ../../sass/_content.scss */
+/* line 43, ../../sass/_content.scss */
 content.product button {
   margin: 0 40% 0 40%;
 }
-/* line 48, ../../sass/_content.scss */
+/* line 49, ../../sass/_content.scss */
 content.product#rinse {
   color: black;
   background: #cccccc;
 }
-/* line 53, ../../sass/_content.scss */
+/* line 54, ../../sass/_content.scss */
 content.product#cleanse {
   color: black;
   background: white;
 }
-/* line 59, ../../sass/_content.scss */
+/* line 60, ../../sass/_content.scss */
 content.product#leavein {
   color: black;
   background: #aaaaaa;
 }
 
-/* line 67, ../../sass/_content.scss */
+/* line 68, ../../sass/_content.scss */
 .product.right img {
   float: right;
-  padding-right: 8%;
+  padding-right: 9%;
+  padding-left: 6%;
 }
-/* line 71, ../../sass/_content.scss */
+/* line 73, ../../sass/_content.scss */
 .product.right .metadata {
   float: left;
   padding-left: 14%;
