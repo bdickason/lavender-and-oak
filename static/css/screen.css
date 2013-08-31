@@ -113,13 +113,32 @@ h2 {
 /* line 40, ../../sass/_base.scss */
 h3 {
   font-size: 2.1em;
-  padding: 0 0 3% 0;
+  padding: 0 0 7% 0;
   text-align: center;
 }
 
 /* line 46, ../../sass/_base.scss */
 p {
   padding: 0 0 5% 0;
+}
+
+/* line 50, ../../sass/_base.scss */
+button {
+  -webkit-font-smoothing: antialiased;
+  color: #777777;
+  -webkit-border-radius: 3px;
+  -moz-border-radius: 3px;
+  -ms-border-radius: 3px;
+  -o-border-radius: 3px;
+  border-radius: 3px;
+  background: linear-gradient(#ffffff, #f0f0f0);
+  background-color: #777777;
+  text-shadow: 0 1px #fff;
+  border: 1px solid #ccc;
+  cursor: pointer;
+  font-weight: bold;
+  padding: 8px 14px 7px;
+  white-space: nowrap;
 }
 
 /* Header Partial  - contains logo and other pieces for header of site */
@@ -214,7 +233,7 @@ content.product .metadata {
 }
 /* line 57, ../../sass/_content.scss */
 content.product button {
-  margin: 0 40% 0 40%;
+  margin: 0 33% 0 33%;
 }
 /* line 63, ../../sass/_content.scss */
 content.product#rinse {
@@ -275,7 +294,7 @@ content.product#leavein {
 content.promo {
   position: relative;
   display: block;
-  height: 600px;
+  height: 500px;
   width: 100%;
   color: black;
   background: white;
@@ -316,7 +335,7 @@ content.promo button {
 }
 /* line 40, ../../sass/_promo.scss */
 content.promo .center {
-  padding-top: 10%;
+  padding-top: 5%;
   text-align: center;
   width: 300px;
   margin: 0 auto;

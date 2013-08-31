@@ -39,10 +39,28 @@ h2 {
 
 h3 {
 	font-size: 2.1em;
-	padding: 0 0 3% 0;
+	padding: 0 0 7% 0;
 	text-align: center;
 }
 
 p {
 	padding: 0 0 5% 0;
+}
+
+button {
+	-webkit-font-smoothing: antialiased;
+	color: $text-cta;
+	-webkit-border-radius: 3px;
+	-moz-border-radius: 3px;
+	-ms-border-radius: 3px;
+	-o-border-radius: 3px;
+	border-radius: 3px;
+	background: linear-gradient(#ffffff, #f0f0f0);
+	background-color: $button;
+	text-shadow: 0 1px #fff;
+	border: 1px solid #ccc;
+	cursor: pointer;
+	font-weight: bold;
+	padding: 8px 14px 7px;
+	white-space: nowrap;
 }
