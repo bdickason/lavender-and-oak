@@ -93,6 +93,8 @@ h1 {
   font-size: 2.5em;
   padding-top: 1%;
   line-height: 1em;
+  width: 80%;
+  margin-left: 12.5%;
 }
 @media screen and (max-width: 600px) {
   /* line 22, ../../sass/_base.scss */
@@ -101,21 +103,21 @@ h1 {
   }
 }
 
-/* line 32, ../../sass/_base.scss */
+/* line 34, ../../sass/_base.scss */
 h2 {
   font-size: 2.3em;
   padding: 0 0 5% 0;
   text-align: center;
 }
 
-/* line 38, ../../sass/_base.scss */
+/* line 40, ../../sass/_base.scss */
 h3 {
   font-size: 2.1em;
   padding: 0 0 3% 0;
   text-align: center;
 }
 
-/* line 44, ../../sass/_base.scss */
+/* line 46, ../../sass/_base.scss */
 p {
   padding: 0 0 5% 0;
 }
