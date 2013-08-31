@@ -275,13 +275,13 @@ content.product#leavein {
 content.promo {
   position: relative;
   display: block;
-  height: 400px;
+  height: 600px;
+  width: 100%;
   color: black;
   background: white;
 }
-/* line 10, ../../sass/_promo.scss */
+/* line 11, ../../sass/_promo.scss */
 content.promo ul {
-  padding: 5% 5% 2% 5%;
   display: inline-block;
 }
 /* line 13, ../../sass/_promo.scss */
@@ -291,15 +291,33 @@ content.promo ul li {
 }
 /* line 17, ../../sass/_promo.scss */
 content.promo ul li img {
+  display: inline-block;
   width: 100px;
   height: 80px;
 }
-/* line 24, ../../sass/_promo.scss */
+@media screen and (max-width: 600px) {
+  /* line 11, ../../sass/_promo.scss */
+  content.promo ul {
+    width: 100%;
+  }
+}
+@media screen and (max-width: 400px) {
+  /* line 11, ../../sass/_promo.scss */
+  content.promo ul {
+    width: 100%;
+    padding-right: 0%;
+    padding-left: 0%;
+  }
+}
+/* line 35, ../../sass/_promo.scss */
 content.promo button {
   margin: 0 auto;
-  width: 10%;
+  width: 100%;
 }
-/* line 29, ../../sass/_promo.scss */
+/* line 40, ../../sass/_promo.scss */
 content.promo .center {
+  padding-top: 10%;
   text-align: center;
+  width: 300px;
+  margin: 0 auto;
 }
