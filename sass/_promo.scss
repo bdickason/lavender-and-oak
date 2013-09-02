@@ -2,11 +2,15 @@
 content.promo {
   position: relative;
   display:block;
-  height: 500px;  // Slightly shorter to vary the eye
   width: 100%;
+  text-align: center;
+  padding: 5% 0;
+  @include pie-clearfix;
 
   color: $text-dark;
   background: $bg-promo;
+
+  h3 { padding: 0 0 1% 0; }
 
   & ul {
     display: inline-block;
@@ -34,7 +38,6 @@ content.promo {
 
   & button {
     margin: 0 auto;
-    width: 100%;
   }
 
   .center {

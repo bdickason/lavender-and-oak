@@ -72,73 +72,80 @@ article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, 
 /* Base styles */
 /* line 4, ../../sass/_base.scss */
 body {
-  font-family: 'Georgia, serif';
-  font-weight: normal;
+  font-family: 'Special Elite', Georgia, serif;
+  font-weight: 400;
   font-style: normal;
   font-variant: normal;
-  font-size: 1.3125em;
-  line-height: 1.52381em;
-  color: white;
-  background: #5f4f5a;
+  font-size: 16px;
+  line-height: 24px;
+  color: #404040;
+  background: url("/images/lo-bg.jpg") top center no-repeat #f8edd1;
+  background-size: cover;
 }
 
-/* line 16, ../../sass/_base.scss */
+/* line 17, ../../sass/_base.scss */
 .contrast {
   text-shadow: 1px 1px 2px black;
   color: white;
 }
 
-/* line 22, ../../sass/_base.scss */
+/* line 23, ../../sass/_base.scss */
+h1, h2, h3, h4, h5, h6 {
+  font-family: 'Radley', Georgia, serif;
+  line-height: 1em;
+  font-weight: 400;
+}
+
+/* line 29, ../../sass/_base.scss */
 h1 {
   font-size: 2.5em;
-  padding-top: 1%;
-  line-height: 1em;
   width: 80%;
   margin-left: 12.5%;
 }
 @media screen and (max-width: 600px) {
-  /* line 22, ../../sass/_base.scss */
+  /* line 29, ../../sass/_base.scss */
   h1 {
     font-size: 1.7em;
   }
 }
 
-/* line 34, ../../sass/_base.scss */
+/* line 39, ../../sass/_base.scss */
 h2 {
-  font-size: 2.3em;
+  font-size: 2.2em;
   padding: 0 0 5% 0;
   text-align: center;
 }
 
-/* line 40, ../../sass/_base.scss */
+/* line 45, ../../sass/_base.scss */
 h3 {
-  font-size: 2.1em;
-  padding: 0 0 7% 0;
+  font-size: 1.8em;
+  padding: 0 0 5% 0;
   text-align: center;
 }
 
-/* line 46, ../../sass/_base.scss */
+/* line 51, ../../sass/_base.scss */
 p {
   padding: 0 0 5% 0;
 }
 
-/* line 50, ../../sass/_base.scss */
+/* line 55, ../../sass/_base.scss */
 button {
   -webkit-font-smoothing: antialiased;
-  color: #777777;
-  -webkit-border-radius: 3px;
-  -moz-border-radius: 3px;
-  -ms-border-radius: 3px;
-  -o-border-radius: 3px;
-  border-radius: 3px;
-  background: linear-gradient(#ffffff, #f0f0f0);
-  background-color: #777777;
+  background-color: white;
   text-shadow: 0 1px #fff;
-  border: 1px solid #ccc;
+  border: 3px double #404040;
   cursor: pointer;
+  font-size: 1em;
+  font-family: 'Radley', Georgia, serif;
+  text-transform: uppercase;
   font-weight: bold;
-  padding: 8px 14px 7px;
+  padding: 10px 20px;
   white-space: nowrap;
+  -webkit-border-radius: 1px;
+  -moz-border-radius: 1px;
+  -ms-border-radius: 1px;
+  -o-border-radius: 1px;
+  border-radius: 1px;
 }
 
 /* Header Partial  - contains logo and other pieces for header of site */
@@ -169,19 +176,29 @@ header .logo {
 content.product {
   position: relative;
   display: block;
-  height: 500px;
+  height: auto;
+  padding: 0;
+  *zoom: 1;
+}
+/* line 38, ../../../../../../Library/Ruby/Gems/1.8/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/utilities/general/_clearfix.scss */
+content.product:after {
+  content: "";
+  display: table;
   clear: both;
 }
 @media screen and (max-width: 600px) {
   /* line 3, ../../sass/_content.scss */
   content.product {
-    height: 610px;
+    height: auto;
+    text-align: center;
+    *zoom: 1;
+    padding: 0 0 10% 0;
   }
-}
-@media screen and (max-width: 400px) {
-  /* line 3, ../../sass/_content.scss */
-  content.product {
-    height: 610px;
+  /* line 38, ../../../../../../Library/Ruby/Gems/1.8/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/utilities/general/_clearfix.scss */
+  content.product:after {
+    content: "";
+    display: table;
+    clear: both;
   }
 }
 /* line 18, ../../sass/_content.scss */
@@ -195,93 +212,75 @@ content.product img {
 @media screen and (max-width: 600px) {
   /* line 18, ../../sass/_content.scss */
   content.product img {
-    width: 350px;
-    padding-left: 18%;
+    width: 75%;
+    padding: 0;
+    margin: 0 auto;
+    float: none;
+    text-align: center;
   }
 }
-@media screen and (max-width: 400px) {
-  /* line 18, ../../sass/_content.scss */
-  content.product img {
-    width: 100%;
-    padding-right: 0%;
-    padding-left: 0%;
-  }
-}
-/* line 38, ../../sass/_content.scss */
+/* line 36, ../../sass/_content.scss */
 content.product .metadata {
   width: 30%;
   padding-top: 11%;
   float: right;
   padding-right: 11%;
+  text-align: center;
+}
+/* line 43, ../../sass/_content.scss */
+content.product .metadata h2 {
+  letter-spacing: 5px;
 }
 @media screen and (max-width: 600px) {
-  /* line 38, ../../sass/_content.scss */
+  /* line 36, ../../sass/_content.scss */
   content.product .metadata {
-    width: 100%;
-    float: right;
-    padding-right: 5%;
-    margin-bottom: 5%;
+    width: 85%;
+    float: none;
+    padding: 0;
+    margin: 0 auto 5% auto;
   }
 }
 @media screen and (max-width: 400px) {
-  /* line 38, ../../sass/_content.scss */
+  /* line 36, ../../sass/_content.scss */
   content.product .metadata {
-    width: 90%;
-    padding-right: 5%;
-    padding-left: 5%;
+    width: 85%;
+    padding: 0;
+    margin: 0 auto 5% auto;
   }
 }
-/* line 57, ../../sass/_content.scss */
-content.product button {
-  margin: 0 33% 0 33%;
-}
-/* line 63, ../../sass/_content.scss */
-content.product#rinse {
-  color: black;
-  background: #cccccc;
-}
-/* line 68, ../../sass/_content.scss */
-content.product#cleanse {
-  color: black;
-  background: white;
-}
-/* line 74, ../../sass/_content.scss */
-content.product#leavein {
-  color: black;
-  background: #aaaaaa;
-}
 
-/* line 82, ../../sass/_content.scss */
+/* line 79, ../../sass/_content.scss */
 .product.right img {
   float: right;
   padding-right: 9%;
   padding-left: 6%;
 }
-@media screen and (max-width: 400px) {
-  /* line 82, ../../sass/_content.scss */
+@media screen and (max-width: 600px) {
+  /* line 79, ../../sass/_content.scss */
   .product.right img {
-    width: 90%;
-    padding-right: 5%;
-    padding-left: 5%;
+    width: 75%;
+    padding: 0;
+    margin: 0 auto;
+    float: none;
   }
 }
-/* line 93, ../../sass/_content.scss */
+/* line 92, ../../sass/_content.scss */
 .product.right .metadata {
   float: left;
   padding-left: 14%;
   padding-right: 0;
 }
 @media screen and (max-width: 600px) {
-  /* line 93, ../../sass/_content.scss */
+  /* line 92, ../../sass/_content.scss */
   .product.right .metadata {
-    width: 100%;
-    float: right;
-    padding-right: 5%;
-    margin-bottom: 5%;
+    width: 85%;
+    float: none;
+    padding: 0;
+    margin: 5% auto;
   }
 }
 @media screen and (max-width: 400px) {
-  /* line 93, ../../sass/_content.scss */
+  /* line 92, ../../sass/_content.scss */
   .product.right .metadata {
     width: 90%;
     padding-right: 5%;
@@ -294,46 +293,57 @@ content.product#leavein {
 content.promo {
   position: relative;
   display: block;
-  height: 500px;
   width: 100%;
-  color: black;
+  text-align: center;
+  padding: 5% 0;
+  *zoom: 1;
+  color: #404040;
   background: white;
 }
-/* line 11, ../../sass/_promo.scss */
+/* line 38, ../../../../../../Library/Ruby/Gems/1.8/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/utilities/general/_clearfix.scss */
+content.promo:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+/* line 13, ../../sass/_promo.scss */
+content.promo h3 {
+  padding: 0 0 1% 0;
+}
+/* line 15, ../../sass/_promo.scss */
 content.promo ul {
   display: inline-block;
 }
-/* line 13, ../../sass/_promo.scss */
+/* line 17, ../../sass/_promo.scss */
 content.promo ul li {
   display: inline-block;
   float: left;
 }
-/* line 17, ../../sass/_promo.scss */
+/* line 21, ../../sass/_promo.scss */
 content.promo ul li img {
   display: inline-block;
   width: 100px;
   height: 80px;
 }
 @media screen and (max-width: 600px) {
-  /* line 11, ../../sass/_promo.scss */
+  /* line 15, ../../sass/_promo.scss */
   content.promo ul {
     width: 100%;
   }
 }
 @media screen and (max-width: 400px) {
-  /* line 11, ../../sass/_promo.scss */
+  /* line 15, ../../sass/_promo.scss */
   content.promo ul {
     width: 100%;
     padding-right: 0%;
     padding-left: 0%;
   }
 }
-/* line 35, ../../sass/_promo.scss */
+/* line 39, ../../sass/_promo.scss */
 content.promo button {
   margin: 0 auto;
-  width: 100%;
 }
-/* line 40, ../../sass/_promo.scss */
+/* line 43, ../../sass/_promo.scss */
 content.promo .center {
   padding-top: 5%;
   text-align: center;

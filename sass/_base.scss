@@ -3,14 +3,15 @@
 
 body {
 	// Text
-	font-family: 'Georgia, serif';
-	font-weight: normal;
+	font-family: 'Special Elite', Georgia, serif;
+	font-weight: 400;
 	font-style: normal;
 	font-variant: normal;
-	font-size: 1.3125em;
-	line-height: 1.52381em;
-	color: $text-light;
-  background: $bg;
+	font-size: $base-font-size;
+	line-height: $base-line-height;
+	color: $text-dark;
+  background: url('/images/lo-bg.jpg') top center no-repeat #f8edd1;
+  background-size: cover;
 }
 
 .contrast {
@@ -19,10 +20,14 @@ body {
 	color: $text-light;
 }
 
+h1, h2, h3, h4, h5, h6 {
+	font-family: 'Radley', Georgia, serif;
+	line-height: 1em;
+	font-weight: 400;
+}
+
 h1 {
 	font-size: 2.5em;
-	padding-top: 1%;
-	line-height: 1em;
 	width: 80%;
 	margin-left: 12.5%;
 
@@ -32,14 +37,14 @@ h1 {
 }
 
 h2 {
-	font-size: 2.3em;
+	font-size: 2.2em;
 	padding: 0 0 5% 0;
 	text-align: center;
 }
 
 h3 {
-	font-size: 2.1em;
-	padding: 0 0 7% 0;
+	font-size: 1.8em;
+	padding: 0 0 5% 0;
 	text-align: center;
 }
 
@@ -49,18 +54,15 @@ p {
 
 button {
 	-webkit-font-smoothing: antialiased;
-	color: $text-cta;
-	-webkit-border-radius: 3px;
-	-moz-border-radius: 3px;
-	-ms-border-radius: 3px;
-	-o-border-radius: 3px;
-	border-radius: 3px;
-	background: linear-gradient(#ffffff, #f0f0f0);
-	background-color: $button;
+	background-color: white;
 	text-shadow: 0 1px #fff;
-	border: 1px solid #ccc;
+	border: 3px double #404040;
 	cursor: pointer;
+	font-size: 1em;
+	font-family: 'Radley', Georgia, serif;
+	text-transform: uppercase;
 	font-weight: bold;
-	padding: 8px 14px 7px;
+	padding: 10px 20px;
 	white-space: nowrap;
+	@include border-radius(1px);
 }

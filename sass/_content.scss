@@ -4,15 +4,15 @@ content.product {
   // Generic styles that apply to all products
   position: relative;
   display:block;
-  height: 500px;
-  clear: both;
+  height: auto;
+  padding: 0;
+  @include pie-clearfix;
 
   @media screen and (max-width: 600px) {
-    height: 610px;
-  }
-
-   @media screen and (max-width: 400px) {
-    height: 610px;
+    height: auto;
+    text-align: center;
+    @include pie-clearfix;
+    padding: 0 0 10% 0;
   }
 
   & img {
@@ -24,13 +24,11 @@ content.product {
     padding-left: 10%;
 
     @media screen and (max-width: 600px) {
-      width: 350px;
-      padding-left: 18%;
-    }
-    @media screen and (max-width: 400px) {
-      width: 100%;
-      padding-right: 0%;
-      padding-left: 0%
+      width: 75%;
+      padding: 0;
+      margin: 0 auto;
+      float: none;
+      text-align: center;
     }
     
   }
@@ -40,41 +38,40 @@ content.product {
     padding-top: 11%;
     float: right;
     padding-right: 11%;
+    text-align: center;
+
+    h2 { letter-spacing: 5px; }
 
     @media screen and (max-width: 600px) {
-      width: 100%;
-      float: right;
-      padding-right: 5%;
-      margin-bottom: 5%;
+      width: 85%;
+      float: none;
+      padding: 0;
+      margin: 0 auto 5% auto;
     }
     @media screen and (max-width: 400px) {
-      width: 90%;
-      padding-right: 5%;
-      padding-left: 5%
+      width: 85%;
+      padding: 0;
+      margin: 0 auto 5% auto;
     }
-  }
-
-  button {
-    margin: 0 33% 0 33%;
   }
 
   // Product-specific styles
 
-  &#rinse {
-    color: $text-dark;
-    background: $bg-rinse;
-  }
+  // &#rinse {
+  //   color: $text-dark;
+  //   background: $bg-rinse;
+  // }
   
-  &#cleanse {
-    color: $text-dark;
-    background: $bg-cleanse;
+  // &#cleanse {
+  //   color: $text-dark;
+  //   background: $bg-cleanse;
 
-  }
+  // }
   
-  &#leavein {
-    color: $text-dark;
-    background: $bg-leavein;
-  }
+  // &#leavein {
+  //   color: $text-dark;
+  //   background: $bg-leavein;
+  // }
 }
 
 // Right Aligned variation
@@ -84,10 +81,12 @@ content.product {
       padding-right: 9%;
       padding-left: 6%;
 
-      @media screen and (max-width: 400px) {
-      width: 90%;
-      padding-right: 5%;
-      padding-left: 5%;
+      @media screen and (max-width: 600px) {
+      width: 75%;
+      padding: 0;
+      margin: 0 auto;
+      float: none;
+
       }
     }
     .metadata {
@@ -96,16 +95,16 @@ content.product {
       padding-right: 0;
 
       @media screen and (max-width: 600px) {
-      width: 100%;
-      float: right;
-      padding-right: 5%;
-      margin-bottom: 5%;
+        width: 85%;
+        float: none;
+        padding: 0;
+        margin: 5% auto;
       }
 
       @media screen and (max-width: 400px) {
-      width: 90%;
-      padding-right: 5%;
-      padding-left: 5%;
+        width: 90%;
+        padding-right: 5%;
+        padding-left: 5%;
       }
     }
 
