@@ -156,9 +156,10 @@ header {
   margin: 0;
   padding-bottom: 4%;
   border-bottom: 3px double #404040;
+  background: -moz-linear-gradient(top, ellipse cover, rgba(247, 237, 187, 0) 0%, #f7edbb 100%);
   background: -webkit-gradient(linear, left bottom, left top, color-stop(0%, rgba(247, 237, 187, 0)), color-stop(100%, #f7edbb));
 }
-/* line 11, ../../sass/_header.scss */
+/* line 12, ../../sass/_header.scss */
 header .logo {
   padding: 13%;
   background: url("/images/logo.png");
@@ -167,7 +168,7 @@ header .logo {
   background-position: center;
 }
 @media screen and (max-width: 600px) {
-  /* line 11, ../../sass/_header.scss */
+  /* line 12, ../../sass/_header.scss */
   header .logo {
     padding: 30%;
   }
