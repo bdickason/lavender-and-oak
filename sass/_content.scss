@@ -7,6 +7,7 @@ content.product {
   display:block;
   height: auto;
   padding: 0;
+  padding-bottom: 5%;
   @include pie-clearfix;
   
 
@@ -19,11 +20,13 @@ content.product {
 
   & img {
     // Generic img styles. Positioning will be overridden below.
-    width: 41%;
-    padding-top: 3%;
+    width: 30%;
+    margin-top: 3%;
     max-width: 500px;
     float: left;
-    padding-left: 10%;
+    margin-left: 14%;
+    
+    border: 3px double #404040;
 
     @media screen and (max-width: 600px) {
       width: 75%;
@@ -37,7 +40,7 @@ content.product {
 
   .metadata {
     width: 30%;
-    padding-top: 11%;
+    padding-top: 17%;
     float: right;
     padding-right: 11%;
     text-align: center;
@@ -59,9 +62,9 @@ content.product {
 
   // Product-specific styles
 
-  // &#rinse {
+  // &#moisturize {
   //   color: $text-dark;
-  //   background: $bg-rinse;
+  //   background: $bg-moisturize;
   // }
   
   // &#cleanse {
@@ -80,13 +83,13 @@ content.product {
   .product.right {
     img {
       float:right;
-      padding-right: 9%;
-      padding-left: 6%;
+      margin-right: 11%;
+      margin-left: 6%;
 
       @media screen and (max-width: 600px) {
       width: 75%;
-      padding: 0;
       margin: 0 auto;
+      margin-top: 10%;
       float: none;
 
       }

@@ -155,8 +155,9 @@ header {
   text-align: center;
   margin: 0;
   padding-bottom: 4%;
+  border-bottom: 3px double #404040;
 }
-/* line 9, ../../sass/_header.scss */
+/* line 10, ../../sass/_header.scss */
 header .logo {
   padding: 13%;
   background: url("/images/logo.png");
@@ -165,7 +166,7 @@ header .logo {
   background-position: center;
 }
 @media screen and (max-width: 600px) {
-  /* line 9, ../../sass/_header.scss */
+  /* line 10, ../../sass/_header.scss */
   header .logo {
     padding: 30%;
   }
@@ -178,6 +179,7 @@ content.product {
   display: block;
   height: auto;
   padding: 0;
+  padding-bottom: 5%;
   *zoom: 1;
 }
 /* line 38, ../../../../../../Library/Ruby/Gems/1.8/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/utilities/general/_clearfix.scss */
@@ -201,16 +203,17 @@ content.product:after {
     clear: both;
   }
 }
-/* line 20, ../../sass/_content.scss */
+/* line 21, ../../sass/_content.scss */
 content.product img {
-  width: 41%;
-  padding-top: 3%;
+  width: 30%;
+  margin-top: 3%;
   max-width: 500px;
   float: left;
-  padding-left: 10%;
+  margin-left: 14%;
+  border: 3px double #404040;
 }
 @media screen and (max-width: 600px) {
-  /* line 20, ../../sass/_content.scss */
+  /* line 21, ../../sass/_content.scss */
   content.product img {
     width: 75%;
     padding: 0;
@@ -219,20 +222,20 @@ content.product img {
     text-align: center;
   }
 }
-/* line 38, ../../sass/_content.scss */
+/* line 41, ../../sass/_content.scss */
 content.product .metadata {
   width: 30%;
-  padding-top: 11%;
+  padding-top: 17%;
   float: right;
   padding-right: 11%;
   text-align: center;
 }
-/* line 45, ../../sass/_content.scss */
+/* line 48, ../../sass/_content.scss */
 content.product .metadata h2 {
   letter-spacing: 5px;
 }
 @media screen and (max-width: 600px) {
-  /* line 38, ../../sass/_content.scss */
+  /* line 41, ../../sass/_content.scss */
   content.product .metadata {
     width: 85%;
     float: none;
@@ -241,7 +244,7 @@ content.product .metadata h2 {
   }
 }
 @media screen and (max-width: 400px) {
-  /* line 38, ../../sass/_content.scss */
+  /* line 41, ../../sass/_content.scss */
   content.product .metadata {
     width: 85%;
     padding: 0;
@@ -249,29 +252,29 @@ content.product .metadata h2 {
   }
 }
 
-/* line 81, ../../sass/_content.scss */
+/* line 84, ../../sass/_content.scss */
 .product.right img {
   float: right;
-  padding-right: 9%;
-  padding-left: 6%;
+  margin-right: 11%;
+  margin-left: 6%;
 }
 @media screen and (max-width: 600px) {
-  /* line 81, ../../sass/_content.scss */
+  /* line 84, ../../sass/_content.scss */
   .product.right img {
     width: 75%;
-    padding: 0;
     margin: 0 auto;
+    margin-top: 10%;
     float: none;
   }
 }
-/* line 94, ../../sass/_content.scss */
+/* line 97, ../../sass/_content.scss */
 .product.right .metadata {
   float: left;
   padding-left: 14%;
   padding-right: 0;
 }
 @media screen and (max-width: 600px) {
-  /* line 94, ../../sass/_content.scss */
+  /* line 97, ../../sass/_content.scss */
   .product.right .metadata {
     width: 85%;
     float: none;
@@ -280,7 +283,7 @@ content.product .metadata h2 {
   }
 }
 @media screen and (max-width: 400px) {
-  /* line 94, ../../sass/_content.scss */
+  /* line 97, ../../sass/_content.scss */
   .product.right .metadata {
     width: 90%;
     padding-right: 5%;
@@ -288,7 +291,7 @@ content.product .metadata h2 {
   }
 }
 
-/* line 115, ../../sass/_content.scss */
+/* line 118, ../../sass/_content.scss */
 content:nth-child(4) {
   border-bottom: 3px double #404040;
 }
