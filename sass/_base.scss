@@ -52,6 +52,14 @@ p {
 	padding: 0 0 5% 0;
 }
 
+a {
+	text-decoration: none;
+}
+
+a:visited {
+	color: $text-dark;
+}
+
 a.button {
 	-webkit-font-smoothing: antialiased;
 	background-color: $button;
