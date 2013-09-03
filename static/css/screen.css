@@ -129,7 +129,7 @@ p {
 }
 
 /* line 55, ../../sass/_base.scss */
-button {
+a.button {
   -webkit-font-smoothing: antialiased;
   background-color: white;
   text-shadow: 0 1px #fff;
@@ -146,6 +146,12 @@ button {
   -ms-border-radius: 1px;
   -o-border-radius: 1px;
   border-radius: 1px;
+}
+
+/* line 70, ../../sass/_base.scss */
+a.button:hover {
+  background-color: #f8edd1;
+  color: black;
 }
 
 /* Header Partial  - contains logo and other pieces for header of site */

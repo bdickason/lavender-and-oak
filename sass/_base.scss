@@ -52,9 +52,9 @@ p {
 	padding: 0 0 5% 0;
 }
 
-button {
+a.button {
 	-webkit-font-smoothing: antialiased;
-	background-color: white;
+	background-color: $button;
 	text-shadow: 0 1px #fff;
 	border: 3px double #404040;
 	cursor: pointer;
@@ -65,4 +65,9 @@ button {
 	padding: 10px 20px;
 	white-space: nowrap;
 	@include border-radius(1px);
+}
+
+a.button:hover {
+	background-color: $button-hover;
+	color: black;
 }
