@@ -131,14 +131,15 @@ p {
 /* line 55, ../../sass/_base.scss */
 a {
   text-decoration: none;
+  color: #404040;
 }
 
-/* line 59, ../../sass/_base.scss */
+/* line 60, ../../sass/_base.scss */
 a:visited {
   color: #404040;
 }
 
-/* line 63, ../../sass/_base.scss */
+/* line 64, ../../sass/_base.scss */
 a.button {
   -webkit-font-smoothing: antialiased;
   background-color: white;
@@ -158,7 +159,7 @@ a.button {
   border-radius: 1px;
 }
 
-/* line 78, ../../sass/_base.scss */
+/* line 79, ../../sass/_base.scss */
 a.button:hover {
   background-color: #f8edd1;
   color: black;
