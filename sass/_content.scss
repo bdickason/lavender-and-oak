@@ -2,11 +2,13 @@
 
 content.product {
   // Generic styles that apply to all products
+
   position: relative;
   display:block;
   height: auto;
   padding: 0;
   @include pie-clearfix;
+  
 
   @media screen and (max-width: 600px) {
     height: auto;
@@ -108,4 +110,8 @@ content.product {
       }
     }
 
+  }
+
+  content:nth-child(4) {
+    border-bottom: 3px double #404040;
   }

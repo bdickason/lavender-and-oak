@@ -201,7 +201,7 @@ content.product:after {
     clear: both;
   }
 }
-/* line 18, ../../sass/_content.scss */
+/* line 20, ../../sass/_content.scss */
 content.product img {
   width: 41%;
   padding-top: 3%;
@@ -210,7 +210,7 @@ content.product img {
   padding-left: 10%;
 }
 @media screen and (max-width: 600px) {
-  /* line 18, ../../sass/_content.scss */
+  /* line 20, ../../sass/_content.scss */
   content.product img {
     width: 75%;
     padding: 0;
@@ -219,7 +219,7 @@ content.product img {
     text-align: center;
   }
 }
-/* line 36, ../../sass/_content.scss */
+/* line 38, ../../sass/_content.scss */
 content.product .metadata {
   width: 30%;
   padding-top: 11%;
@@ -227,12 +227,12 @@ content.product .metadata {
   padding-right: 11%;
   text-align: center;
 }
-/* line 43, ../../sass/_content.scss */
+/* line 45, ../../sass/_content.scss */
 content.product .metadata h2 {
   letter-spacing: 5px;
 }
 @media screen and (max-width: 600px) {
-  /* line 36, ../../sass/_content.scss */
+  /* line 38, ../../sass/_content.scss */
   content.product .metadata {
     width: 85%;
     float: none;
@@ -241,7 +241,7 @@ content.product .metadata h2 {
   }
 }
 @media screen and (max-width: 400px) {
-  /* line 36, ../../sass/_content.scss */
+  /* line 38, ../../sass/_content.scss */
   content.product .metadata {
     width: 85%;
     padding: 0;
@@ -249,14 +249,14 @@ content.product .metadata h2 {
   }
 }
 
-/* line 79, ../../sass/_content.scss */
+/* line 81, ../../sass/_content.scss */
 .product.right img {
   float: right;
   padding-right: 9%;
   padding-left: 6%;
 }
 @media screen and (max-width: 600px) {
-  /* line 79, ../../sass/_content.scss */
+  /* line 81, ../../sass/_content.scss */
   .product.right img {
     width: 75%;
     padding: 0;
@@ -264,14 +264,14 @@ content.product .metadata h2 {
     float: none;
   }
 }
-/* line 92, ../../sass/_content.scss */
+/* line 94, ../../sass/_content.scss */
 .product.right .metadata {
   float: left;
   padding-left: 14%;
   padding-right: 0;
 }
 @media screen and (max-width: 600px) {
-  /* line 92, ../../sass/_content.scss */
+  /* line 94, ../../sass/_content.scss */
   .product.right .metadata {
     width: 85%;
     float: none;
@@ -280,12 +280,17 @@ content.product .metadata h2 {
   }
 }
 @media screen and (max-width: 400px) {
-  /* line 92, ../../sass/_content.scss */
+  /* line 94, ../../sass/_content.scss */
   .product.right .metadata {
     width: 90%;
     padding-right: 5%;
     padding-left: 5%;
   }
+}
+
+/* line 115, ../../sass/_content.scss */
+content:nth-child(4) {
+  border-bottom: 3px double #404040;
 }
 
 /* Promo Partial - contents of each promo box */
