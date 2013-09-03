@@ -253,6 +253,12 @@ content.product .metadata {
 content.product .metadata h2 {
   letter-spacing: 5px;
 }
+@media screen and (max-width: 900px) {
+  /* line 41, ../../sass/_content.scss */
+  content.product .metadata {
+    padding-top: 10%;
+  }
+}
 @media screen and (max-width: 600px) {
   /* line 41, ../../sass/_content.scss */
   content.product .metadata {
@@ -271,14 +277,14 @@ content.product .metadata h2 {
   }
 }
 
-/* line 84, ../../sass/_content.scss */
+/* line 87, ../../sass/_content.scss */
 .product.right img {
   float: right;
   margin-right: 11%;
   margin-left: 6%;
 }
 @media screen and (max-width: 600px) {
-  /* line 84, ../../sass/_content.scss */
+  /* line 87, ../../sass/_content.scss */
   .product.right img {
     width: 75%;
     margin: 0 auto;
@@ -286,14 +292,14 @@ content.product .metadata h2 {
     float: none;
   }
 }
-/* line 97, ../../sass/_content.scss */
+/* line 100, ../../sass/_content.scss */
 .product.right .metadata {
   float: left;
   padding-left: 14%;
   padding-right: 0;
 }
 @media screen and (max-width: 600px) {
-  /* line 97, ../../sass/_content.scss */
+  /* line 100, ../../sass/_content.scss */
   .product.right .metadata {
     width: 85%;
     float: none;
@@ -302,7 +308,7 @@ content.product .metadata h2 {
   }
 }
 @media screen and (max-width: 400px) {
-  /* line 97, ../../sass/_content.scss */
+  /* line 100, ../../sass/_content.scss */
   .product.right .metadata {
     width: 90%;
     padding-right: 5%;
@@ -310,7 +316,7 @@ content.product .metadata h2 {
   }
 }
 
-/* line 118, ../../sass/_content.scss */
+/* line 121, ../../sass/_content.scss */
 content:nth-child(4) {
   border-bottom: 3px double #404040;
 }

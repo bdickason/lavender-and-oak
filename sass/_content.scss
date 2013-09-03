@@ -47,6 +47,9 @@ content.product {
 
     h2 { letter-spacing: 5px; }
 
+    @media screen and (max-width: 900px) {
+      padding-top: 10%;
+    }
     @media screen and (max-width: 600px) {
       width: 85%;
       float: none;
